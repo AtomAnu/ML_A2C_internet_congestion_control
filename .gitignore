@@ -1,0 +1,8 @@
+results/
+*.pyc
+logs/
+**.idea/
+build/build.log
+build/lib/build/
+dist/
+**.DS_Store
