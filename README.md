@@ -9,9 +9,9 @@ In this research project, the concept of creating a dynamic congestion control a
 
 The main target of this research project is to create an agent with a dynamic congestion control algorithm that could outperform existing TCP algorithms used today. There are mainly two performance measures, system throughput and latency. Once trained, the performance of the agent should be compared against the performance of existing TCPs suchas NewReno, XCP and Vegas. This comparison can be done by deploying these agents,one at a time, in a uniform simulated network. The throughput, latency and any other measurements can then be obtained from the simulation.
 
-A report describing this project can be found [here](./setup_guide/SETUP_GUIDE.md).
+A report describing this project can be found .
 
 # ns3gym Installation
-This project uses the `ns3gym` package create in this [repository](https://github.com/tkn-tub/ns3-gym)
+This project uses the `ns3gym` package create in this [repository](https://github.com/tkn-tub/ns3-gym). In order to run the training script for the A2C TCP Agent, this package needs to installed first. The instruction on how to install this package can be found [here](./setup_guide/SETUP_GUIDE.md).
 
 # Runnning the training script for the A2C TCP Agent
