@@ -8,3 +8,8 @@ the same Transmission Control Protocol (TCP) has been employed for over three de
 In this research project, the concept of creating a dynamic congestion control algorithmis introduced. The algorithm will be design such that it oversees the sender side of the network.  The ideal congestion control design should be able to perceive the network structure and the level of congestion. Then, it should adjust the transmission rate for eachapplication dynamically so that fairness between applications is ensured. The algorithm should be refined to the optimal point where suitable throughput is maintained, and latency is minimised to an acceptable value. To create such a sophisticated design, the concept ofDeep Reinforcement Learning (DRL) is applied.
 
 The main target of this research project is to create an agent with a dynamic congestion control algorithm that could outperform existing TCP algorithms used today. There are mainly two performance measures, system throughput and latency. Once trained, the performance of the agent should be compared against the performance of existing TCPs suchas NewReno, XCP and Vegas. This comparison can be done by deploying these agents,one at a time, in a uniform simulated network. The throughput, latency and any other measurements can then be obtained from the simulation.
+
+A report describing this project can be found here.
+
+# ns3gym Installation
+# Runnning the training script for the A2C TCP Agent
